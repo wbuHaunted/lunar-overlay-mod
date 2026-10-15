@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "lunaroverlay",
+  "version": "${version}",
+  "name": "Lunar Overlay Mod",
+  "description": "Client-side overlay HUD with glassmorphism GUI, ESP, and visual utilities.",
+  "authors": [ "Your Name" ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.lunaroverlay.LunarOverlayClient"
+    ]
+  },
+  "mixins": [
+    "lunaroverlay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
